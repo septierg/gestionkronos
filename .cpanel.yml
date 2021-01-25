@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gestionkronos/public_html/
+    - export DEPLOYPATH=/home/repositories/gestionkronos
     - /bin/cp -R * $DEPLOYPATH
